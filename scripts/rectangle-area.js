@@ -97,6 +97,19 @@ function calculateRhombusArea(){
 }
 
 
+// Pentagon Part
+
+function calculatePentagonArea(){
+    const pentagon=getInputValue('pentagon-base-field');
+    const base=getInputValue('pentagon-height-field');
+
+    area=0.5*pentagon*base;
+
+    setElementText('area-pentagon',area);
+
+}
+
+
 // reusable input value 
 
 
